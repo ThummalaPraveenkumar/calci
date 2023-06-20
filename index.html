@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cal">
+        <h1 style="color: rgb(12, 12, 239);margin-left: 600px; padding-top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Basic Calculator</h1>
+    </div>
+   <div class="ob">
+    <div class="num">
+        <h2 > Enter Number 1</h2>
+        <form> 
+        <input type="number" style="margin-top: 25px; margin-left: 30px;" id="n1" >
+        </form>
+    </div>
+    <div class="num">
+        <h2 > Enter Number 2</h2>
+        <form> 
+        <input type="number" style="margin-top: 25px; margin-left: 30px;" id="n2">
+        </form>
+    </div>
+   </div>
+   <div class="but">
+        <input type="submit" value="Add" id="add" style="font-size: 20px; background-color: rgb(55, 0, 255); border-radius: 10px;" onclick="add()">
+        <input type="submit" value="Sub" id="sub" style="font-size: 20px; background-color: rgb(43, 0, 255); border-radius: 10px;" onclick="sub()">
+        <input type="submit" value="Mul" id="mul" style="font-size: 20px; background-color: rgb(4, 0, 255); border-radius: 10px;" ondblclick="mul()">
+        <input type="submit" value="Div" id="div" style="font-size: 20px; background-color: rgb(30, 0, 255); border-radius: 10px;" onclick="div()">
+   </div>
+   <div class="dis" id="res">
+      
+   </div>
+   <script src="./index.js"></script>
+   
+
+
+</body>
+</html>
