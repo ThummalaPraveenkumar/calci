@@ -1,0 +1,23 @@
+body{
+ background-image:url("https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg");
+}
+.border{
+    height:450px;
+    width:450px;
+    background-color: rgb(75, 1, 145);
+    margin:auto;
+    margin-top:10%;
+    left: -10%;
+}
+.text{
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    float:left;
+    width:300px;
+    height:auto;
+    margin-top:-150px;
+}
